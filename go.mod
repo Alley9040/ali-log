@@ -1,4 +1,4 @@
-module github.com/alley9040/golog
+module github.com/alley9040/go-log
 
 go 1.24.6
 
