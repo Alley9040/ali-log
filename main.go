@@ -15,3 +15,7 @@ const (
 	LogLevelFatal = domain.LogLevelFatal
 	LogLevelPanic = domain.LogLevelPanic
 )
+
+func NewLogger(cfg *LogConfig) Log {
+	return domain.NewLogger(cfg)
+}
