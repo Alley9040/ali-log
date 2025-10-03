@@ -1,4 +1,4 @@
-module github.com/alley9040/ali-log
+module github.com/Alley9040/ali-log
 
 go 1.24.6
 
