@@ -6,3 +6,12 @@ type LogLevel = domain.LogLevel
 type LogField = domain.LogField
 type LogConfig = domain.LogConfig
 type Log = domain.Log
+
+const (
+	LogLevelDebug = domain.LogLevelDebug
+	LogLevelInfo  = domain.LogLevelInfo
+	LogLevelWarn  = domain.LogLevelWarn
+	LogLevelError = domain.LogLevelError
+	LogLevelFatal = domain.LogLevelFatal
+	LogLevelPanic = domain.LogLevelPanic
+)
