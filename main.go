@@ -1,6 +1,6 @@
 package alog
 
-import "github.com/Alley9040/ali-log/domain"
+import "github.com/alley9040/ali-log/domain"
 
 type LogLevel = domain.LogLevel
 type LogField = domain.LogField
